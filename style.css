@@ -1,0 +1,83 @@
+
+body {
+    font-family: Arial, sans-serif;
+    margin: 0;
+    padding: 0;
+    text-align: center;
+    background-color: white;
+    overflow-x: hidden;
+    box-sizing: border-box;
+    max-width: 100%;
+}
+
+.top-right-links {
+    position: absolute;
+    top: 20px;
+    right: 25px;
+}
+
+.top-right-links a {
+    margin-left: 20px;
+    font-size: 16px;
+    text-decoration: none;
+}
+
+.top-right-links a:hover {  
+    text-decoration: underline;
+}
+
+.search-container {
+    margin-top: 250px;
+}
+
+.search-bar {
+    min-width: 412px;
+    width: 35%;
+    border-radius: 24px;
+    padding: 12px 20px;
+    border: 1px solid #dfe1e5;
+    font-size: 16px;
+    box-shadow: 0 1px 6px rgba(32, 33, 36, 0.28);
+    outline: none;
+    margin-top: 24px;
+    margin-inline: 10px;
+}
+
+.search-buttons {
+    margin-top: 20px;
+}
+
+.search-buttons input {
+    background-color: #f8f9fa;
+    border: 1px solid #f8f9fa;
+    border-radius: 4px;
+    padding: 10px 20px;
+    margin: 4px;
+    font-size: 14px;
+    cursor: pointer;
+}
+
+.search-buttons input:hover {
+    border: 1px solid #c6c6c6;
+}
+
+.images-text {
+    position: absolute;
+    left: 215px;  /* Adjust this to fine-tune horizontal placement */
+    bottom: 5px; /* Adjust for vertical overlap */
+    font-size: 16px;
+    color: #4285f4;
+    font-family: Arial, sans-serif;
+}
+
+.google-logo {
+    position: relative;
+    width: 272px;  /* width of the logo */
+    margin: 100px auto 0;  /* center it horizontally */
+    text-align: left;
+}
+
+.google-logo img {
+    width: 100%;
+    height: auto;
+}
