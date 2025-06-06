@@ -3,7 +3,6 @@ body {
     margin: 0;
     padding: 0;
     text-align: center;
-    background-color: white;
     overflow-x: hidden;
     box-sizing: border-box;
     max-width: 100%;
@@ -27,13 +26,38 @@ body {
 
 .search-container {
     margin-top: 250px;
+    align-items: center;
+    width: 40%;
+    margin-inline: auto;
+    min-width: 412px;
+    padding-right: 80px;
 }
+
+
+.search-wrapper {
+      position: relative;
+      display: inline-block;
+      width: 75%;
+      min-width: 412px;
+      align-content: left;
+      margin-right: 50px;
+    }
+
+.search-icon {
+      position: absolute;
+      left: 25px;
+      top: 67%;
+      transform: translateY(-50%);
+      font-size: 18px;
+      color: #9aa0a6;
+      pointer-events: none;
+    }
 
 .search-bar {
     min-width: 412px;
-    width: 35%;
+    width: 100%;
     border-radius: 24px;
-    padding: 12px 20px;
+    padding: 12px 20px 12px 45px;
     border: 1px solid #dfe1e5;
     font-size: 16px;
     box-shadow: 0 1px 6px rgba(32, 33, 36, 0.28);

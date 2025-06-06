@@ -1,0 +1,69 @@
+<!DOCTYPE html>
+<html lang="en">
+  <head>
+    <meta charset="UTF-8" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <title>Google Advanced Search</title>
+    <link rel="stylesheet" href="adv_style.css">
+  </head>
+  <body>
+    <div class="top-left-logo">
+      <img src="static/google_logo_image.png" alt="Google Logo" />
+    </div>
+
+    <div class="top-right-links">
+      <a href="index.html">Google Search</a>
+    </div>
+
+    <h2 class="adv_search">Advanced Search</h2>
+    <hr class="section-divider" />
+
+    <div class="form-container">
+      <form action="https://www.google.com/search">
+        <div class="form-row">
+          <div class="space-left">Find pages with...</div>
+          <div class="space">&nbsp;</div>
+          <div class="space-right">To do this in the search box.</div>
+        </div>
+
+        <div class="form-row">
+          <label for="all-words">all these words:</label>
+          <input type="text" id="all-words" name="as_q" />
+          <div class="note">
+            <p>Type the important words: <i>tri-colour rat terrier</i></p>
+          </div>
+        </div>
+
+        <div class="form-row">
+          <label for="exact-phrase">this exact word or phrase:</label>
+          <input type="text" id="exact-phrase" name="as_epq" />
+          <div class="note">
+            Put exact words in quotes: <i>"rat terrier"</i>
+          </div>
+        </div>
+
+        <div class="form-row">
+          <label for="any-word">any of these words:</label>
+          <input type="text" id="any-word" name="as_oq" />
+          <div class="note">
+            Type OR between all the words you want: <i>miniature OR standard</i>
+          </div>
+        </div>
+
+        <div class="form-row">
+          <label for="none-word">none of these words:</label>
+          <input type="text" id="none-word" name="as_eq" />
+          <div class="note">
+            Put a minus sign just before words that you don't want:<i
+              >-rodent, -"Jack Russell"</i
+            >
+          </div>
+        </div>
+
+        <div class="adv-button">
+          <input type="submit" value="Advanced Search" />
+        </div>
+      </form>
+    </div>
+  </body>
+</html>
