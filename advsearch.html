@@ -1,0 +1,172 @@
+<!DOCTYPE html>
+<html lang="en">
+  <head>
+    <meta charset="UTF-8" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <title>Google Advanced Search</title>
+    <style>
+      body {
+        font-family: Arial, sans-serif;
+        margin: 0;
+        padding: 0;
+        background-color: white;
+        overflow-x: hidden;
+        max-width: 100%;
+      }
+
+      .top-right-links {
+        position: absolute;
+        top: 20px;
+        right: 25px;
+      }
+
+      .top-right-links a {
+        margin-left: 20px;
+        font-size: 16px;
+        text-decoration: none;
+      }
+
+      .top-right-links a:hover {
+        text-decoration: underline;
+      }
+
+      .top-left-logo {
+        margin-left: 25px;
+      }
+
+      .top-left-logo img {
+        margin-top: 20px;
+        width: 80px;
+        height: auto;
+      }
+
+      h2 {
+        margin-left: 50px;
+        margin-top: 40px;
+        margin-bottom: 40px;
+        color: #d93025;
+        font-size: 20px;
+        font-weight: 500;
+      }
+
+      .space-left {
+        font-size: 16px;
+        min-width: 200px;
+      }
+
+      .space-right {
+        font-size: 14px;
+        color: #777;
+        font-weight: bold;
+      }
+
+      .form-container {
+        margin-left: 50px;
+        max-width: 1100px;
+      }
+
+      .form-row {
+        display: flex;
+        align-items: center;
+        margin-bottom: 20px;
+        gap: 10px;
+      }
+
+      .form-row label {
+        font-size: 13px;
+        min-width: 200px;
+        font-weight: 540;
+      }
+
+      .note {
+        font-size: 13px;
+        color: #666;
+        margin-left: 10px;
+        word-wrap: normal;
+      }
+
+      .form-row input,
+      .space {
+        alignment-baseline: 200px;
+        font-size: 14px;
+        padding: 6px;
+        max-width: 50%;
+        min-width: 50%;
+      }
+
+      .adv-button input {
+        margin-right: 325px;
+        min-width: 120px;
+        height: 30px;
+        float: right;
+        border-radius: 2px;
+        font-size: 11px;
+        text-align: center;
+        font-weight: bold;
+        background-color: #4d90fe;
+        border: 1px solid #3079ed;
+        white-space: nowrap;
+        color: #ffffff;
+      }
+    </style>
+  </head>
+  <body>
+    <div class="top-left-logo">
+      <img src="static/google_logo_image.png" alt="Google Logo" />
+    </div>
+
+    <div class="top-right-links">
+      <a href="index.html">Google Search</a>
+    </div>
+
+    <h2 class="adv_search">Advanced Search</h2>
+
+    <div class="form-container">
+      <form action="https://www.google.com/search">
+        <div class="form-row">
+          <div class="space-left">Find pages with...</div>
+          <div class="space">&nbsp;</div>
+          <div class="space-right">To do this in the search box.</div>
+        </div>
+
+        <div class="form-row">
+          <label for="all-words">all these words:</label>
+          <input type="text" id="all-words" name="as_q" />
+          <div class="note">
+            <p>Type the important words: <i>tri-colour rat terrier</i></p>
+          </div>
+        </div>
+
+        <div class="form-row">
+          <label for="exact-phrase">this exact word or phrase:</label>
+          <input type="text" id="exact-phrase" name="as_epq" />
+          <div class="note">
+            Put exact words in quotes: <i>"rat terrier"</i>
+          </div>
+        </div>
+
+        <div class="form-row">
+          <label for="any-word">any of these words:</label>
+          <input type="text" id="any-word" name="as_oq" />
+          <div class="note">
+            Type OR between all the words you want: <i>miniature OR standard</i>
+          </div>
+        </div>
+
+        <div class="form-row">
+          <label for="none-word">none of these words:</label>
+          <input type="text" id="none-word" name="as_eq" />
+          <div class="note">
+            Put a minus sign just before words that you don't want:<i>
+              -rodent, -"Jack Russell"</i
+            >
+          </div>
+        </div>
+
+        <div class="adv-button">
+          <input type="submit" name="" id="" value="Advanced Search" />
+        </div>
+      </form>
+    </div>
+  </body>
+</html>
