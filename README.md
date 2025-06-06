@@ -11,20 +11,16 @@ Built using **HTML and CSS only**, with no JavaScript or backend code.
 
 ## 📁 Project Structure
 
+```
 .
-├── index.html # Main Google Search page
-├── images.html # Google Image Search clone
-├── advanced.html # Google Advanced Search clone
-├── style.css # Styles for index and images pages
-├── adv_style.css # Styles for advanced search page
+├── index.html             # Main Google Search page
+├── images.html            # Google Image Search clone
+├── advanced.html          # Google Advanced Search clone
+├── style.css              # Styles for index and images pages
+├── adv_style.css          # Styles for advanced search page
 ├── static/
-│ └── google_logo_image.png # Google logo used in all pages
-
-yaml
-Copy
-Edit
-
----
+│   └── google_logo_image.png  # Google logo used in all pages
+```
 
 ## 🔍 Features
 
@@ -70,21 +66,20 @@ You can open them by double-clicking the file or dragging it into your browser.
 - Type your query and hit Enter or click the buttons.
 - The form will redirect you to the actual Google search results for demonstration.
 
-🧠 Concepts Practiced
-HTML semantics and form behavior
+## 🧠 Concepts Practiced
 
-CSS Flexbox layout for alignment
+- HTML semantics and form behavior
+- CSS Flexbox layout for alignment
+- Input and label styling consistency
+- Responsive design for smaller screens
+- Accessibility using &lt;label&gt; and for
 
-Input and label styling consistency
+## 📜 License
 
-Responsive design for smaller screens
-
-Accessibility using <label> and for
-
-📜 License
 This project is intended for educational purposes only.
 This is not affiliated with Google in any way.
 
-🙌 Contributing
+## 🙌 Contributing
+
 Want to improve the design or add more features?
 Fork the repo and submit a pull request!
