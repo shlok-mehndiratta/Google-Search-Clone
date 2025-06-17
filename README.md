@@ -83,3 +83,10 @@ This is not affiliated with Google in any way.
 
 Want to improve the design or add more features?
 Fork the repo and submit a pull request!
+
+---
+### 🙋‍♂️ Author
+Shlok Mehndiratta<br>
+BS in EECS, IISER Bhopal<br>
+[GitHub](https://github.com/shlok-mehndiratta) • [LinkedIn](https://www.linkedin.com/in/shlok-mehndiratta)
+
